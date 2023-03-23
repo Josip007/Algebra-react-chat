@@ -3,6 +3,7 @@ import { Navigate } from "react-router-dom";
 import { MessageOfTheDay } from "../components/MessageOfTheDay";
 import { SignInForm } from "../components/SignInForm";
 import { AppContext } from "../contexts/AppContext";
+import { Link } from "react-router-dom";
 
 export function SignInPage() {
     const context = useContext(AppContext);
@@ -21,6 +22,7 @@ export function SignInPage() {
             <MessageOfTheDay />
             <div className="card">
                 <SignInForm onSubmit={handleSubmit} />
+                <Link to='/faq'>Read the FAQ</Link>
             </div>
         </div>
     );
