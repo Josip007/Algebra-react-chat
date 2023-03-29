@@ -1,5 +1,5 @@
 const adjectives = ['lijep', 'zgodan', 'pametan'];
-const nouns = ['domagoj', 'domba', 'predavač'];
+const nouns = ['Snake', 'Raiden', 'Jack'];
 
 export function getRandomName() {
     const adjectiveIndex = Math.floor(Math.random() * adjectives.length);

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { avatarImages } from "../library/avatar";
 
 export function Message(props) {

@@ -1,3 +1,14 @@
 .form-field {
     margin: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-field button {
+    height: 40px;
+    background-color: rgba(13, 20, 112, 0.6);
+    border: 1px solid rgb(20, 20, 175);
+    border-radius: 20px;
+    color: white;
 }
